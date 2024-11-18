@@ -1,0 +1,312 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 40px;
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+
+}
+
+.header a {
+    text-decoration: none;
+    color: rgb(196, 19, 111);
+    font-weight: bolder;
+    font-size: 30px;
+    padding: 10px;
+    position: absolute;
+    left: 100px;
+    top: 8px;
+
+}
+
+.login {
+    padding: 10px;
+    border-radius: 10px;
+    width: 90px;
+    color: rgb(196, 19, 111);
+    border-color: rgb(207, 42, 127);
+    position: absolute;
+    left: 990px;
+    background-color: white;
+    top: 14px;
+}
+
+.signup {
+    padding: 10px;
+    border-radius: 10px;
+    width: 90px;
+    color: white;
+    border-color: rgb(207, 42, 127);
+    position: absolute;
+    left: 1096px;
+    background-color: rgb(207, 42, 127);
+    top: 14px;
+}
+
+.globe2 {
+    position: absolute;
+    left: 1210px;
+    top: 22px;
+}
+
+.language {
+    padding: 10px;
+    width: 58px;
+    border-radius: 10px;
+    position: absolute;
+    left: 1235px;
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    top: 18px;
+}
+
+.bag {
+    position: absolute;
+    left: 1320px;
+    top: 22px;
+    fill: rgb(207, 42, 127)
+}
+
+.logo-icon {
+    position: absolute;
+    left: 75px;
+    top: 17px;
+}
+
+.section-container {
+    background-color: white;
+    height: auto;
+    position: relative;
+    position: sticky;
+
+
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    width: 55%;
+    position: relative;
+
+    height: 200px;
+}
+
+.head h1 {
+    font-family: "Open Sans", sans-serif;
+
+    font-weight: 100px;
+    font-variation-settings: "wdth" 80;
+    font-size: 40px;
+    position: absolute;
+    top: 70px;
+    padding: 10px;
+    left: 35px;
+}
+
+.input-locate {
+    display: flex;
+    gap: 10px;
+    width: 30%;
+    height: 80px;
+    margin-top: 8px;
+    padding: 10px;
+    margin-left: 40px;
+
+
+}
+
+.boxin {
+    padding: 20px;
+    width: 1000px;
+    background-color: aliceblue;
+}
+
+.img {
+    display: flex;
+    position: absolute;
+    left: 900px;
+    top: 0px;
+    justify-content: end;
+}
+
+input {
+    border-radius: 10px;
+    width: 350px;
+}
+
+.button-find button {
+    padding: 20px;
+    border-radius: 10px;
+    width: 100px;
+    background-color: rgb(196, 19, 111);
+    color: white;
+}
+
+h1 {
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+}
+
+.chef img {
+    width: 100%;
+    height: 400px;
+}
+
+.small-box {
+    width: 30%;
+    background-color: white;
+    height: 250px;
+       padding: 20px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    left: 100px;
+    top: 1050px;
+}
+
+.container-2 {
+    position: relative;
+    width: 90%;
+    margin: auto;
+}
+
+.small-box button {
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    background-color: rgb(196, 19, 111);
+    color: white;
+}
+
+.container-3 {
+    padding: 10px;
+    width: 90%;
+    margin: auto;
+}
+
+.cities img {
+    width: 30%;
+    border-radius: 12px;
+}
+
+
+
+.cities {
+    position: relative;
+}
+
+.section-3 {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+}
+
+.section-3 h2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pink {
+    width: 95%;
+    margin: auto;
+    margin-top: 30px;
+    background-color: rgb(207, 42, 127);
+    height: 330px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.pink-1 img {
+    width: 75px;
+    border: 1px solid white;
+    padding: 5px;
+    margin: 10px;
+}
+
+.pink p {
+    color: white;
+    font-weight: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    ;
+    display: inline;
+    padding: 5px;
+}
+
+.pink-1 {
+    width: 50%;
+}
+
+.pink-2 {
+    display: inline;
+    width: 50%;
+}
+
+.pink-2 img {
+    width: 500px;
+    display: flex;
+    position: absolute;
+    left: 475px;
+    bottom: 8px;
+    margin-top: 10px;
+}
+
+.section-4 {
+    width: 99%;
+    margin: auto;
+    padding: 10px;
+    position: relative;
+}
+
+.section-4 h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.lady img {
+    width: 100%;
+    height: 350px;
+}
+.sbox{
+    width: 30%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    position: absolute;
+    left: 40px;
+    height: 250px;
+    
+    padding: 20px;
+    bottom: -129px;
+}
+.sbox button{
+    padding: 10px;
+    border-radius: 10px;
+    width: 100px;
+    background-color: rgb(196, 19, 111);
+    color: white;
+
+}
+.questions
+{
+    margin-top: 120px;
+}
+.questions p{
+    color: grey;
+}
+hr{
+    margin: 10px
+}
+.iconsf{
+    display: flex;
+    justify-content: space-evenly;
+}
